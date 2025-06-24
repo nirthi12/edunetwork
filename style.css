@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: #004466;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.member-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #004466;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+}
